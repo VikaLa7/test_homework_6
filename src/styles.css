@@ -1,0 +1,43 @@
+:root {
+	transition: margin-left .5s;
+	background-color: #ebe6ea;
+	font-family: "Apple Chancery", sans-serif;
+}
+
+#main {
+	padding: 10px 50px;
+}
+
+.link-text a {
+	color: black;
+	text-decoration: none;
+}
+
+.link-text a:hover{
+	background: none;
+	color: #4f3268;
+	text-decoration: none;
+}
+
+.btn {
+	margin-left: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	color: #403d58;
+	cursor: pointer;
+	padding: 0.75rem 1.2rem;
+	border: 2px solid #403d58;
+	border-radius: 0.4rem;
+	background: transparent;
+}
+
+.btn:hover {
+	background-color: #efe9df;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
